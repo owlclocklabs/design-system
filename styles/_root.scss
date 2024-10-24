@@ -1,0 +1,107 @@
+:root {
+  // Box Shadow
+  --shadow-size: 0px 1px 4px 0px;
+
+  // Color
+  --color-custom-1: hsl(220, 26%, 10%); /* Darker shade */
+  --color-custom-2: hsl(220, 26%, 15%); /* #202836 base color */
+  --color-custom-3: hsl(220, 26%, 20%); /* Slightly lighter */
+  --color-custom-4: hsl(220, 26%, 25%); /* Lighter */
+  --color-custom-5: hsl(220, 26%, 30%); /* Medium shade */
+  --color-custom-6: hsl(220, 26%, 40%); /* Light-medium */
+  --color-custom-7: hsl(220, 26%, 50%); /* Light */
+  --color-custom-8: hsl(220, 26%, 60%); /* Even lighter */
+  --color-custom-9: hsl(220, 26%, 75%); /* Lightest shade */
+  --color-custom-10: hsl(220, 26%, 90%); /* Near white */
+
+  // RAW
+  --color-indigo-1: hsl(234, 62%, 26%); /* #19216C */
+  --color-indigo-2: hsl(227, 50%, 59%); /* #647ACB */
+  --color-indigo-3: hsl(232, 51%, 36%); /* #2D3A8C */
+  --color-indigo-4: hsl(225, 57%, 67%); /* #7B93DB */
+  --color-indigo-5: hsl(230, 49%, 41%); /* #35469C */
+  --color-indigo-6: hsl(224, 67%, 76%); /* #98AEEB */
+  --color-indigo-7: hsl(228, 45%, 45%); /* #4055A8 */
+  --color-indigo-8: hsl(227, 42%, 51%); /* #4C63B6 */
+  --color-indigo-9: hsl(221, 78%, 86%); /* #BED0F7 */
+  --color-indigo-10: hsl(221, 68%, 93%); /* #E0E8F9 */
+
+  --color-pink-1: hsl(330, 79%, 20%); /* #5C0B33 */
+  --color-pink-2: hsl(331, 74%, 27%); /* #781244 */
+  --color-pink-3: hsl(330, 70%, 36%); /* #9B1B5A */
+  --color-pink-4: hsl(330, 68%, 40%); /* #AD2167 */
+  --color-pink-5: hsl(330, 63%, 47%); /* #C42D78 */
+  --color-pink-6: hsl(330, 66%, 57%); /* #DA4A91 */
+  --color-pink-7: hsl(330, 72%, 65%); /* #E668A7 */
+  --color-pink-8: hsl(330, 77%, 76%); /* #F191C1 */
+  --color-pink-9: hsl(330, 87%, 85%); /* #FAB8D9 */
+  --color-pink-10: hsl(329, 100%, 94%); /* #FFE0F0 */
+
+  --color-red-1: hsl(360, 92%, 20%); /* #610404 */
+  --color-red-2: hsl(360, 85%, 25%); /* #780A0A */
+  --color-red-3: hsl(360, 79%, 32%); /* #911111 */
+  --color-red-4: hsl(360, 72%, 38%); /* #A61B1B */
+  --color-red-5: hsl(360, 67%, 44%); /* #BA2525 */
+  --color-red-6: hsl(360, 64%, 55%); /* #D64545 */
+  --color-red-7: hsl(360, 71%, 66%); /* #E66A6A */
+  --color-red-8: hsl(360, 77%, 78%); /* #F29B9B */
+  --color-red-9: hsl(360, 82%, 89%); /* #FACDCD */
+  --color-red-10: hsl(360, 100%, 97%); /* #FFEEEE */
+
+  --color-yellow-1: hsl(43, 86%, 17%); /* #513C06 */
+  --color-yellow-2: hsl(43, 77%, 27%); /* #7C5E10 */
+  --color-yellow-3: hsl(43, 72%, 37%); /* #A27C1A */
+  --color-yellow-4: hsl(42, 63%, 48%); /* #C99A2E */
+  --color-yellow-5: hsl(42, 78%, 60%); /* #E9B949 */
+  --color-yellow-6: hsl(43, 89%, 70%); /* #F7D070 */
+  --color-yellow-7: hsl(43, 90%, 76%); /* #F9DA8B */
+  --color-yellow-8: hsl(45, 86%, 81%); /* #F8E3A3 */
+  --color-yellow-9: hsl(45, 90%, 88%); /* #FCEFC7 */
+  --color-yellow-10: hsl(45, 100%, 96%); /* #FFFAEB */
+
+  // Categorized
+  --color-primary-1: hsl(184, 91%, 17%); /* #044E54 */
+  --color-primary-2: hsl(185, 84%, 25%); /* #0A6C74 */
+  --color-primary-3: hsl(185, 81%, 29%); /* #0E7C86 */
+  --color-primary-4: hsl(184, 77%, 34%); /* #14919B */
+  --color-primary-5: hsl(185, 62%, 45%); /* #2CB1BC */
+  --color-primary-6: hsl(185, 57%, 50%); /* #38BEC9 */
+  --color-primary-7: hsl(184, 65%, 59%); /* #54D1DB */
+  --color-primary-8: hsl(184, 80%, 74%); /* #87EAF2 */
+  --color-primary-9: hsl(185, 94%, 87%); /* #BEF8FD */
+  --color-primary-10: hsl(186, 100%, 94%); /* #E0FCFF */
+
+  --color-transparent: rgba(0, 0, 0, 0);
+
+  --color-1: #97a7c8;
+  --color-2: rgb(28, 33, 46);
+  --color-3: rgb(248, 128, 112);
+  --color-4: #202836;
+  --color-5: #e26674;
+  --color-6: #4e5769;
+
+  --background-1: #202836;
+
+  // Font Size
+  --font-size-base: 1rem;
+  --font-size-root: 16px;
+
+  // Font Weight
+  --font-weight-light: 300;
+  --font-weight-normal: 400;
+  --font-weight-medium: 500;
+  --font-weight-semibold: 600;
+  --font-weight-bold: 700;
+
+  // Spacing
+  --spacing-xsmall: 0.25rem;
+  --spacing-small: 0.5rem;
+  --spacing-medium: 1rem;
+  --spacing-large: 2rem;
+  --spacing-xlarge: 4rem;
+  --spacing-xxlarge: 8rem;
+
+  // Transition
+  --transition-easing: ease-in-out;
+  --transition-speed: 0.2s;
+}

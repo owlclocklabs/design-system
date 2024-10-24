@@ -1,0 +1,26 @@
+button.common {
+  background-color: var(--color-primary-5);
+  border: 2px solid var(--color-primary-5);
+  border-radius: 5px;
+  box-shadow: var(--color-transparent) var(--shadow-size);
+  color: var(--color-primary-10);
+  font-weight: var(--font-weight-semibold);
+  outline: var(--color-transparent) none 1px;
+  padding: var(--spacing-small) var(--spacing-medium);
+  transition:
+    background-color var(--transition-speed) var(--transition-easing),
+    border-color var(--transition-speed) var(--transition-easing),
+    outline var(--transition-speed) var(--transition-easing);
+
+  &:focus {
+    border-color: var(--color-primary-8);
+    cursor: pointer;
+    outline: var(--color-primary-8) auto 1px;
+  }
+
+  &:hover {
+    background-color: var(--color-primary-6);
+    border-color: var(--color-primary-6);
+    cursor: pointer;
+  }
+}
